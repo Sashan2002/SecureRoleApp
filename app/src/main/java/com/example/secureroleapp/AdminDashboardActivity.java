@@ -131,6 +131,10 @@ public class AdminDashboardActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.action_logout) {
             logout();
             return true;
+        }else if (item.getItemId() == R.id.action_profile) {
+            // open admin profile
+            startActivity(new Intent(this, AdminProfileActivity.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -49,6 +49,11 @@
             android:name=".AdminDashboardActivity"
             android:exported="false"
             android:theme="@style/Theme.SecureRoleApp.NoActionBar"/>
+        <activity
+            android:name=".AdminProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SecureRoleApp.NoActionBar" />
+
 
     </application>
 
